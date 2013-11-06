@@ -1,0 +1,16 @@
+{
+  "name" : "vlerdas-rs",
+  "version" : "0.0.1",
+  "description" : "Read Service - A simple, RESTFul service for reading VA VLER data.",
+  "keywords" : ["vrs", "read", "service", "rest", "restful"],
+  "author" : "John W. May <john.may4@va.gov>",
+  "contributors" : [],
+  "main" : "./bin/server.js",
+  "scripts": {
+    "testServer": "mocha ./test/testServer.js",
+    "testFeedTransformer": "mocha ./test/testVrsFeedTranformer.js"
+  },
+  "dependencies": { "xmldom": ">=0.1.16", "async": ">=0.2.9", "JSONPath": ">=0.9.1", "express": ">=3.4.0", "moment":">=2.3.1", "request":">=2.27.0", "config":">=0.4.30", "underscore":">=1.5.2", "ofuda": ">=0.3.1", "vcommons": ">=0.1.8", "winston": ">=0.7.2"},
+  "devDependencies": {"should": ">=2.0.1", "supertest": ">=0.8.0"},
+  "repository" : {"type": "svn", "url": "https://github.com/department-of-veterans-affairs/vlerdas-rs"}  
+}

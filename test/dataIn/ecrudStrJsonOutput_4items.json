@@ -1,0 +1,442 @@
+[
+  {
+    "case:ServiceTreatmentRecord": {
+      "-xmlns:vler": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler",
+      "-xmlns:nc": "http://niem.gov/niem/niem-core/2.0",
+      "-xmlns:case": "http://vler.va.gov/vler/schemas/health/clinicalDocuments/serviceTreatmentRecord/1.3",
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xmlns:s": "http://niem.gov/niem/structures/2.0",
+      "case:CommonData": {
+        "nc:Document": {
+          "nc:DocumentCreationDate": {
+            "nc:DateTime": "2013-08-14T18:03:55Z"
+          },
+          "nc:DocumentDescriptionText": "Neck (Cervical Spine) Conditions\n\t\t\t\t(0960M-13)",
+          "nc:DocumentIdentification": [
+            {
+              "nc:IdentificationID": "HAIMSUNIQUEDOCID1"
+            },
+            {
+              "nc:IdentificationID": "1232432423",
+              "nc:IdentificationCategoryText": "VTA Tracking Identifier\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "23423432",
+              "nc:IdentificationCategoryText": "STR ID\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            }
+          ],
+          "nc:DocumentStatus": {
+            "nc:StatusText": "Completed"
+          },
+          "nc:DocumentTitleText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:DocumentVersion": "1",
+          "nc:DocumentFileControlID": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:DocumentFormatText": "application/pdf"
+        },
+        "nc:DocumentSource": {
+          "nc:EntityOrganization": {
+            "nc:OrganizationName": "DoD"
+          }
+        },
+        "nc:MilitarySummary": {
+          "nc:MilitaryBranchName": "Army"
+        },
+        "vler:Client": {
+          "-s:id": "client",
+          "vler:ClientIdentifier": [
+            {
+              "nc:IdentificationID": "623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.184\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "AUN623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.275\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.42.10001.100001.12\n\t\t\t\t"
+            }
+          ],
+          "vler:ClientStatus": {
+            "vler:ClientStatusText": "OK"
+          },
+          "nc:RoleOfPersonReference": {
+            "-s:ref": "p1"
+          }
+        },
+        "nc:Person": {
+          "-s:id": "p1",
+          "nc:PersonBirthDate": {
+            "nc:Date": "1929-12-24"
+          },
+          "nc:PersonName": {
+            "nc:PersonGivenName": "CHRISTMAS",
+            "nc:PersonSurName": "FIX"
+          },
+          "nc:PersonSexCode": "M",
+          "nc:PersonSSNIdentification": {
+            "nc:IdentificationID": "623456789"
+          }
+        },
+        "nc:Facility": {
+          "nc:FacilityIdentification": {
+            "nc:IdentificationID": "500",
+            "nc:IdentificationJurisdictionText": "COR.FO-ALBANY.MED.VA.GOV\n\t\t\t\t"
+          },
+          "nc:FacilityName": "COR.FO-ALBANY.MED.VA.GOV"
+        },
+        "vler:ServiceProviderClientAssociation": {
+          "vler:ServiceProviderReference": {
+            "-s:ref": "service_provider"
+          },
+          "vler:ClientReference": {
+            "-s:ref": "client"
+          }
+        }
+      },
+      "case:Attachments": {
+        "nc:Attachment": {
+          "nc:BinaryDescriptionText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:BinaryFormatStandardName": "application/pdf\n\t\t\t",
+          "nc:BinaryLocationURI": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:BinarySizeValue": "127306",
+          "nc:BinaryCategoryText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t"
+        }
+      }
+    },
+    "uploadDate": "2013-10-27T00:17:37.197Z",
+    "_id": "526c5ba1332e1e5d07000001"
+  },
+  {
+    "case:ServiceTreatmentRecord": {
+      "-xmlns:vler": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler",
+      "-xmlns:nc": "http://niem.gov/niem/niem-core/2.0",
+      "-xmlns:case": "http://vler.va.gov/vler/schemas/health/clinicalDocuments/serviceTreatmentRecord/1.3",
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xmlns:s": "http://niem.gov/niem/structures/2.0",
+      "case:CommonData": {
+        "nc:Document": {
+          "nc:DocumentCreationDate": {
+            "nc:DateTime": "2013-08-14T18:03:55Z"
+          },
+          "nc:DocumentDescriptionText": "Neck (Cervical Spine) Conditions\n\t\t\t\t(0960M-13)",
+          "nc:DocumentIdentification": [
+            {
+              "nc:IdentificationID": "HAIMSUNIQUEDOCID2"
+            },
+            {
+              "nc:IdentificationID": "1232432423",
+              "nc:IdentificationCategoryText": "VTA Tracking Identifier\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "23423432",
+              "nc:IdentificationCategoryText": "STR ID\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            }
+          ],
+          "nc:DocumentStatus": {
+            "nc:StatusText": "Completed"
+          },
+          "nc:DocumentTitleText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:DocumentVersion": "1",
+          "nc:DocumentFileControlID": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:DocumentFormatText": "application/pdf"
+        },
+        "nc:DocumentSource": {
+          "nc:EntityOrganization": {
+            "nc:OrganizationName": "DoD"
+          }
+        },
+        "nc:MilitarySummary": {
+          "nc:MilitaryBranchName": "Army"
+        },
+        "vler:Client": {
+          "-s:id": "client",
+          "vler:ClientIdentifier": [
+            {
+              "nc:IdentificationID": "623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.184\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "AUN623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.275\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.42.10001.100001.12\n\t\t\t\t"
+            }
+          ],
+          "vler:ClientStatus": {
+            "vler:ClientStatusText": "OK"
+          },
+          "nc:RoleOfPersonReference": {
+            "-s:ref": "p1"
+          }
+        },
+        "nc:Person": {
+          "-s:id": "p1",
+          "nc:PersonBirthDate": {
+            "nc:Date": "1929-12-24"
+          },
+          "nc:PersonName": {
+            "nc:PersonGivenName": "CHRISTMAS",
+            "nc:PersonSurName": "FIX"
+          },
+          "nc:PersonSexCode": "M",
+          "nc:PersonSSNIdentification": {
+            "nc:IdentificationID": "623456789"
+          }
+        },
+        "nc:Facility": {
+          "nc:FacilityIdentification": {
+            "nc:IdentificationID": "500",
+            "nc:IdentificationJurisdictionText": "COR.FO-ALBANY.MED.VA.GOV\n\t\t\t\t"
+          },
+          "nc:FacilityName": "COR.FO-ALBANY.MED.VA.GOV"
+        },
+        "vler:ServiceProviderClientAssociation": {
+          "vler:ServiceProviderReference": {
+            "-s:ref": "service_provider"
+          },
+          "vler:ClientReference": {
+            "-s:ref": "client"
+          }
+        }
+      },
+      "case:Attachments": {
+        "nc:Attachment": {
+          "nc:BinaryDescriptionText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:BinaryFormatStandardName": "application/pdf\n\t\t\t",
+          "nc:BinaryLocationURI": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:BinarySizeValue": "127306",
+          "nc:BinaryCategoryText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t"
+        }
+      }
+    },
+    "uploadDate": "2013-10-27T00:19:09.508Z",
+    "_id": "526c5bfd332e1e5d07000002"
+  },
+  {
+    "case:ServiceTreatmentRecord": {
+      "-xmlns:vler": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler",
+      "-xmlns:nc": "http://niem.gov/niem/niem-core/2.0",
+      "-xmlns:case": "http://vler.va.gov/vler/schemas/health/clinicalDocuments/serviceTreatmentRecord/1.3",
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xmlns:s": "http://niem.gov/niem/structures/2.0",
+      "case:CommonData": {
+        "nc:Document": {
+          "nc:DocumentCreationDate": {
+            "nc:DateTime": "2013-08-14T18:03:55Z"
+          },
+          "nc:DocumentDescriptionText": "Neck (Cervical Spine) Conditions\n\t\t\t\t(0960M-13)",
+          "nc:DocumentIdentification": [
+            {
+              "nc:IdentificationID": "HAIMSUNIQUEDOCID3"
+            },
+            {
+              "nc:IdentificationID": "1232432423",
+              "nc:IdentificationCategoryText": "VTA Tracking Identifier\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "23423432",
+              "nc:IdentificationCategoryText": "STR ID\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            }
+          ],
+          "nc:DocumentStatus": {
+            "nc:StatusText": "Completed"
+          },
+          "nc:DocumentTitleText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:DocumentVersion": "1",
+          "nc:DocumentFileControlID": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:DocumentFormatText": "application/pdf"
+        },
+        "nc:DocumentSource": {
+          "nc:EntityOrganization": {
+            "nc:OrganizationName": "DoD"
+          }
+        },
+        "nc:MilitarySummary": {
+          "nc:MilitaryBranchName": "Army"
+        },
+        "vler:Client": {
+          "-s:id": "client",
+          "vler:ClientIdentifier": [
+            {
+              "nc:IdentificationID": "623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.184\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "AUN623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.275\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "623456789",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.42.10001.100001.12\n\t\t\t\t"
+            }
+          ],
+          "vler:ClientStatus": {
+            "vler:ClientStatusText": "OK"
+          },
+          "nc:RoleOfPersonReference": {
+            "-s:ref": "p1"
+          }
+        },
+        "nc:Person": {
+          "-s:id": "p1",
+          "nc:PersonBirthDate": {
+            "nc:Date": "1929-12-24"
+          },
+          "nc:PersonName": {
+            "nc:PersonGivenName": "CHRISTMAS",
+            "nc:PersonSurName": "FIX"
+          },
+          "nc:PersonSexCode": "M",
+          "nc:PersonSSNIdentification": {
+            "nc:IdentificationID": "623456789"
+          }
+        },
+        "nc:Facility": {
+          "nc:FacilityIdentification": {
+            "nc:IdentificationID": "500",
+            "nc:IdentificationJurisdictionText": "COR.FO-ALBANY.MED.VA.GOV\n\t\t\t\t"
+          },
+          "nc:FacilityName": "COR.FO-ALBANY.MED.VA.GOV"
+        },
+        "vler:ServiceProviderClientAssociation": {
+          "vler:ServiceProviderReference": {
+            "-s:ref": "service_provider"
+          },
+          "vler:ClientReference": {
+            "-s:ref": "client"
+          }
+        }
+      },
+      "case:Attachments": {
+        "nc:Attachment": {
+          "nc:BinaryDescriptionText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:BinaryFormatStandardName": "application/pdf\n\t\t\t",
+          "nc:BinaryLocationURI": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:BinarySizeValue": "127306",
+          "nc:BinaryCategoryText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t"
+        }
+      }
+    },
+    "uploadDate": "2013-10-27T00:20:02.390Z",
+    "_id": "526c5c32332e1e5d07000003"
+  },
+  {
+    "case:ServiceTreatmentRecord": {
+      "-xmlns:vler": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler",
+      "-xmlns:nc": "http://niem.gov/niem/niem-core/2.0",
+      "-xmlns:case": "http://vler.va.gov/vler/schemas/health/clinicalDocuments/serviceTreatmentRecord/1.3",
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xmlns:s": "http://niem.gov/niem/structures/2.0",
+      "case:CommonData": {
+        "nc:Document": {
+          "nc:DocumentCreationDate": {
+            "nc:DateTime": "2013-08-14T18:03:55Z"
+          },
+          "nc:DocumentDescriptionText": "Neck (Cervical Spine) Conditions\n\t\t\t\t(0960M-13)",
+          "nc:DocumentIdentification": [
+            {
+              "nc:IdentificationID": "HAIMSUNIQUEDOCID3"
+            },
+            {
+              "nc:IdentificationID": "1232432423",
+              "nc:IdentificationCategoryText": "VTA Tracking Identifier\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "23423432",
+              "nc:IdentificationCategoryText": "STR ID\n\t\t\t\t",
+              "nc:IdentificationCategoryDescriptionText": "string\n\t\t\t\t"
+            }
+          ],
+          "nc:DocumentStatus": {
+            "nc:StatusText": "Completed"
+          },
+          "nc:DocumentTitleText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:DocumentVersion": "1",
+          "nc:DocumentFileControlID": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:DocumentFormatText": "application/pdf"
+        },
+        "nc:DocumentSource": {
+          "nc:EntityOrganization": {
+            "nc:OrganizationName": "DoD"
+          }
+        },
+        "nc:MilitarySummary": {
+          "nc:MilitaryBranchName": "Army"
+        },
+        "vler:Client": {
+          "-s:id": "client",
+          "vler:ClientIdentifier": [
+            {
+              "nc:IdentificationID": "699999999",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.184\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "AUN699999999",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.275\n\t\t\t\t"
+            },
+            {
+              "nc:IdentificationID": "699999999",
+              "vler:AssigningAuthority": "2.16.840.1.113883.3.42.10001.100001.12\n\t\t\t\t"
+            }
+          ],
+          "vler:ClientStatus": {
+            "vler:ClientStatusText": "OK"
+          },
+          "nc:RoleOfPersonReference": {
+            "-s:ref": "p1"
+          }
+        },
+        "nc:Person": {
+          "-s:id": "p1",
+          "nc:PersonBirthDate": {
+            "nc:Date": "1929-12-24"
+          },
+          "nc:PersonName": {
+            "nc:PersonGivenName": "CHRISTMAS",
+            "nc:PersonSurName": "FIX"
+          },
+          "nc:PersonSexCode": "M",
+          "nc:PersonSSNIdentification": {
+            "nc:IdentificationID": "699999999"
+          }
+        },
+        "nc:Facility": {
+          "nc:FacilityIdentification": {
+            "nc:IdentificationID": "500",
+            "nc:IdentificationJurisdictionText": "COR.FO-ALBANY.MED.VA.GOV\n\t\t\t\t"
+          },
+          "nc:FacilityName": "COR.FO-ALBANY.MED.VA.GOV"
+        },
+        "vler:ServiceProviderClientAssociation": {
+          "vler:ServiceProviderReference": {
+            "-s:ref": "service_provider"
+          },
+          "vler:ClientReference": {
+            "-s:ref": "client"
+          }
+        }
+      },
+      "case:Attachments": {
+        "nc:Attachment": {
+          "nc:BinaryDescriptionText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t",
+          "nc:BinaryFormatStandardName": "application/pdf\n\t\t\t",
+          "nc:BinaryLocationURI": "gridfs://52559c5663d3d82912000011\n\t\t\t",
+          "nc:BinarySizeValue": "127306",
+          "nc:BinaryCategoryText": "Neck (Cervical Spine) Conditions (0960M-13)\n\t\t\t"
+        }
+      }
+    },
+    "uploadDate": "2013-10-27T00:24:06.546Z",
+    "_id": "526c5d26332e1e5d07000004"
+  }
+]

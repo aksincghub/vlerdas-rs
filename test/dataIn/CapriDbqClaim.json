@@ -1,0 +1,87 @@
+{
+  "cld:Claim": {
+    "-xsi:schemaLocation": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/cld cld.xsd",
+    "-xmlns:cld": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/cld",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xmlns:vler": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler",
+    "-xmlns:s": "http://niem.gov/niem/structures/2.0",
+    "-xmlns:niem-xsd": "http://niem.gov/niem/proxy/xsd/2.0",
+    "-xmlns:nc": "http://niem.gov/niem/niem-core/2.0",
+    "-xmlns:ac": "http://va.gov/vler/schemas/vlerSupersetSchema/0.7/ac",
+    "cld:DocumentTypeVersion": "1.0",
+    "cld:ClaimID": "2012-0000353",
+    "cld:CommonData": {
+      "nc:Document": {
+        "nc:DocumentCreationDate": { "nc:DateTime": "2012-08-09T16:27:38-05:00" },
+        "nc:DocumentDescriptionText": "Ankle Conditions Form",
+        "nc:DocumentIdentification": { "nc:IdentificationID": "10000" },
+        "nc:DocumentStatus": { "nc:StatusText": "Completed" },
+        "nc:DocumentTitleText": "Ankle Conditions Form",
+        "nc:DocumentFileControlID": "gridfs://1234567890ab1234567890ab",
+        "nc:DocumentFormatText": "application/xml"
+      },
+      "vler:Client": {
+        "-s:id": "client",
+        "vler:ClientIdentifier": {
+          "nc:IdentificationID": "123456789",
+          "vler:AssigningAuthority": "2.16.840.1.113883.4.349"
+        },
+        "vler:ClientStatus": { "vler:ClientStatusText": "OK" },
+        "nc:RoleOfPersonReference": { "-s:ref": "one" }
+      },
+      "vler:ServiceProvider": {
+        "-s:id": "service_provider",
+        "vler:PersonIdentifier": {
+          "nc:IdentificationID": "02384902409002020209999",
+          "nc:IdentificationJurisdictionText": "CAPRI Form System"
+        },
+        "vler:ServiceProviderRoleTitle": "Physician",
+        "nc:RoleOfPersonReference": { "-s:ref": "two" }
+      },
+      "nc:Person": [
+        {
+          "-s:id": "two",
+          "nc:PersonName": {
+            "nc:PersonGivenName": "Frank",
+            "nc:PersonMiddleName": "A",
+            "nc:PersonSurName": "James"
+          }
+        },
+        {
+          "-s:id": "one",
+          "nc:PersonBirthDate": { "nc:Date": "1980-12-08" },
+          "nc:PersonName": {
+            "nc:PersonGivenName": "CHDRAMDDEV",
+            "nc:PersonSurName": "Patone"
+          },
+          "nc:PersonSexCode": "M",
+          "nc:PersonSSNIdentification": { "nc:IdentificationID": "666580001" }
+        }
+      ],
+      "nc:Facility": {
+        "nc:FacilityIdentification": {
+          "nc:IdentificationID": "644",
+          "nc:IdentificationJurisdictionText": "PHOENIX.MED.VA.GOV"
+        },
+        "nc:FacilityName": "CARL T. HAYDEN VA MEDICAL CENTER"
+      },
+      "vler:ServiceProviderClientAssociation": {
+        "vler:ServiceProviderReference": { "-s:ref": "service_provider" },
+        "vler:ClientReference": { "-s:ref": "client" }
+      }
+    },
+    "cld:MedicalData": {
+      "ac:AnkleConditionsForm": ""
+    },
+    "cld:Attachments": {
+      "nc:Attachment": {
+        "nc:BinaryBase64Object": "GpM7",
+        "nc:BinaryDescriptionText": "Leg",
+        "nc:BinaryFormatStandardName": "image/jpeg",
+        "nc:BinaryLocationURI": "gridfs://1234567890ab1234567890ac",
+        "nc:BinarySizeValue": "10241024",
+        "nc:BinaryCategoryText": "X-Rays"
+      }
+    }
+  }
+}

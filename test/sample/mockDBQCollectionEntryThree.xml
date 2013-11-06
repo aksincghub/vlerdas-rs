@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cld:Claim xsi:schemaLocation="http://vler.va.gov/vler/schemas/health/clinicalDocuments/clinicalAssessments/cpExams/1.0 Cld.xsd" xmlns:md="http://vler.va.gov/vler/schemas/health/clinicalDocuments/clinicalAssessments/cpExams/1.0/MentalDisorders" xmlns:cld="http://vler.va.gov/vler/schemas/health/clinicalDocuments/clinicalAssessments/cpExams/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:vler="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler">
+	<cld:DocumentTypeVersion>1.0</cld:DocumentTypeVersion>
+	<cld:ClaimID>2012-0000093</cld:ClaimID>
+	<cld:CommonData>
+		<nc:Document>
+			<nc:DocumentCreationDate>
+				<nc:DateTime>2012-09-10T16:44:41-04:00</nc:DateTime>
+			</nc:DocumentCreationDate>
+			<nc:DocumentDescriptionText>Mental Disorders</nc:DocumentDescriptionText>
+			<nc:DocumentIdentification>
+				<nc:IdentificationID>101014</nc:IdentificationID>
+			</nc:DocumentIdentification>
+			<nc:DocumentStatus>
+				<nc:StatusText>Complete</nc:StatusText>
+			</nc:DocumentStatus>
+			<nc:DocumentTitleText>Mental Disorders</nc:DocumentTitleText>
+		</nc:Document>
+		<vler:Client s:id="client">
+			<vler:ClientIdentifier>
+				<nc:IdentificationID>999428888</nc:IdentificationID>
+				<vler:AssigningAuthority>USSN</vler:AssigningAuthority>
+			</vler:ClientIdentifier>
+			<vler:ClientStatus>
+				<vler:ClientStatusText>OK</vler:ClientStatusText>
+			</vler:ClientStatus>
+			<nc:RoleOfPersonReference s:ref="one"/>
+		</vler:Client>
+		<vler:ServiceProvider s:id="service_provider">
+			<vler:PersonIdentifier>
+				<nc:IdentificationID>22222222</nc:IdentificationID>
+				<nc:IdentificationJurisdictionText>Harris Form System</nc:IdentificationJurisdictionText>
+			</vler:PersonIdentifier>
+			<vler:ServiceProviderRoleTitle>Physician</vler:ServiceProviderRoleTitle>
+			<nc:RoleOfPersonReference s:ref="two"/>
+		</vler:ServiceProvider>
+		<nc:Person s:id="two">
+			<nc:PersonName>
+				<nc:PersonGivenName>EFG</nc:PersonGivenName>
+				<nc:PersonMiddleName/>
+				<nc:PersonSurName>EFG</nc:PersonSurName>
+			</nc:PersonName>
+		</nc:Person>
+		<nc:Person s:id="one">
+			<nc:PersonBirthDate>
+				<nc:Date>1978-07-05</nc:Date>
+			</nc:PersonBirthDate>
+			<nc:PersonName>
+				<nc:PersonGivenName>test</nc:PersonGivenName>
+				<nc:PersonMiddleName/>
+				<nc:PersonSurName>XML</nc:PersonSurName>
+			</nc:PersonName>
+			<nc:PersonSexCode>M</nc:PersonSexCode>
+			<nc:PersonSSNIdentification>
+				<nc:IdentificationID>999428888</nc:IdentificationID>
+			</nc:PersonSSNIdentification>
+		</nc:Person>
+		<nc:Facility>
+			<nc:FacilityIdentification>
+				<nc:IdentificationID>644</nc:IdentificationID>
+				<nc:IdentificationJurisdictionText>PHOENIX.MED.VA.GOV</nc:IdentificationJurisdictionText>
+			</nc:FacilityIdentification>
+			<nc:FacilityName>CARL T. HAYDEN VA MEDICAL CENTER</nc:FacilityName>
+		</nc:Facility>
+		<vler:ServiceProviderClientAssociation>
+			<vler:ServiceProviderReference s:ref="service_provider"/>
+			<vler:ClientReference s:ref="client"/>
+		</vler:ServiceProviderClientAssociation>
+	</cld:CommonData>
+	<cld:MedicalData>
+		<md:MentalDisordersForm>
+			<md:MentalDisorderDiagnosisAdditionalDiagnosis>IF ADDITIONAL DIAGNOSES THAT PERTAIN TO MENTAL HEALTH DISORDERS, LIST USING ABOVE FORMAT</md:MentalDisorderDiagnosisAdditionalDiagnosis>
+			<md:MentalDisorderDiagnosisAxis3Comment>comments 4</md:MentalDisorderDiagnosisAxis3Comment>
+			<md:MentalDisorderDiagnosisAxis3Icd>code 4</md:MentalDisorderDiagnosisAxis3Icd>
+			<md:MentalDisorderDiagnosisAxis4Problems>1C. AXIS IV - PSYCHOSOCIAL AND ENVIRONMENTAL PROBLEMS (DESCRIBE, IF ANY</md:MentalDisorderDiagnosisAxis4Problems>
+			<md:MentalDisorderDiagnosisAxis5Comment>comments 5</md:MentalDisorderDiagnosisAxis5Comment>
+			<md:MentalDisorderDiagnosisAxis5GafScore>1D. AXIS V - CURRENT GLOBAL ASSESSMENT OF FUNCTIONING (GAF) SCORE</md:MentalDisorderDiagnosisAxis5GafScore>
+			<md:MentalDisorderDiagnosisBrainInjuryAttributable>Yes</md:MentalDisorderDiagnosisBrainInjuryAttributable>
+			<md:MentalDisorderDiagnosisBrainInjuryAttributableNo>(If &quot;No,&quot; provide reason that it is not possible to differentiate what portion of each symptom is attributable to each diagnosis)</md:MentalDisorderDiagnosisBrainInjuryAttributableNo>
+			<md:MentalDisorderDiagnosisBrainInjuryAttributableYes>(If &quot;Yes,&quot; list which symptoms are attributable to each diagnosis)  2</md:MentalDisorderDiagnosisBrainInjuryAttributableYes>
+			<md:MentalDisorderDiagnosisDiagnosedTraumaticBrainInjury>Yes</md:MentalDisorderDiagnosisDiagnosedTraumaticBrainInjury>
+			<md:MentalDisorderDiagnosisDiagnosedTraumaticBrainInjuryComment>comments 6</md:MentalDisorderDiagnosisDiagnosedTraumaticBrainInjuryComment>
+			<md:MentalDisorderDiagnosisDiagnosis1>diag 1</md:MentalDisorderDiagnosisDiagnosis1>
+			<md:MentalDisorderDiagnosisDiagnosis1Axis>AXIS I</md:MentalDisorderDiagnosisDiagnosis1Axis>
+			<md:MentalDisorderDiagnosisDiagnosis1Comment>comments 1</md:MentalDisorderDiagnosisDiagnosis1Comment>
+			<md:MentalDisorderDiagnosisDiagnosis1Icd>code 1</md:MentalDisorderDiagnosisDiagnosis1Icd>
+			<md:MentalDisorderDiagnosisDiagnosis2>diag 2</md:MentalDisorderDiagnosisDiagnosis2>
+			<md:MentalDisorderDiagnosisDiagnosis2Axis>AXIS I</md:MentalDisorderDiagnosisDiagnosis2Axis>
+			<md:MentalDisorderDiagnosisDiagnosis2Comment>comments 2</md:MentalDisorderDiagnosisDiagnosis2Comment>
+			<md:MentalDisorderDiagnosisDiagnosis2Icd>code 2</md:MentalDisorderDiagnosisDiagnosis2Icd>
+			<md:MentalDisorderDiagnosisDiagnosis3>diag 3</md:MentalDisorderDiagnosisDiagnosis3>
+			<md:MentalDisorderDiagnosisDiagnosis3Axis>AXIS I</md:MentalDisorderDiagnosisDiagnosis3Axis>
+			<md:MentalDisorderDiagnosisDiagnosis3Comment>comments 3</md:MentalDisorderDiagnosisDiagnosis3Comment>
+			<md:MentalDisorderDiagnosisDiagnosis3Icd>code 3</md:MentalDisorderDiagnosisDiagnosis3Icd>
+			<md:MentalDisorderDiagnosisDifferentiateCauseBrainInjury>No</md:MentalDisorderDiagnosisDifferentiateCauseBrainInjury>
+			<md:MentalDisorderDiagnosisDifferentiateCauseBrainInjuryNo>(If &quot;No,&quot; provide reason that it is not possible to differentiate what portion of the indicated level of occupational and social impairment is attributable to each diagnosis) 3</md:MentalDisorderDiagnosisDifferentiateCauseBrainInjuryNo>
+			<md:MentalDisorderDiagnosisDifferentiateCauseBrainInjuryYes>(If &quot;Yes,&quot; list which portion of the indicated level of occupational and social impairment is attributable to each diagnosis)  4</md:MentalDisorderDiagnosisDifferentiateCauseBrainInjuryYes>
+			<md:MentalDisorderDiagnosisDifferentiateCauseMentalDisorder>No</md:MentalDisorderDiagnosisDifferentiateCauseMentalDisorder>
+			<md:MentalDisorderDiagnosisDifferentiateCauseMentalDisorderNo>(If &quot;No,&quot; provide reason that it is not possible to differentiate what portion of the indicated level of occupational and social impairment is attributable to each diagnosis) 2</md:MentalDisorderDiagnosisDifferentiateCauseMentalDisorderNo>
+			<md:MentalDisorderDiagnosisDifferentiateCauseMentalDisorderYes>(If &quot;Yes,&quot; list which portion of the indicated level of occupational and social impairment is attributable to each diagnosis) 3</md:MentalDisorderDiagnosisDifferentiateCauseMentalDisorderYes>
+			<md:MentalDisorderDiagnosisHaveMoreThan1Md>yes</md:MentalDisorderDiagnosisHaveMoreThan1Md>
+			<md:MentalDisorderDiagnosisSocialImpairmentMentalDiagnoses>No mental disorder diagnosis</md:MentalDisorderDiagnosisSocialImpairmentMentalDiagnoses>
+			<md:MentalDisorderDiagnosisSymptomsAttributableNo>2B. IS IT POSSIBLE TO DIFFERENTIATE WHAT SYMPTOM(S) IS/ARE ATTRIBUTABLE TO EACH DIAGNOSIS?</md:MentalDisorderDiagnosisSymptomsAttributableNo>
+			<md:MentalDisorderDiagnosisSymptomsAttributableToEachDiagnosis>Yes</md:MentalDisorderDiagnosisSymptomsAttributableToEachDiagnosis>
+			<md:MentalDisorderDiagnosisSymptomsAttributableYes>(If &quot;Yes,&quot; list which symptoms are attributable to each diagnosis)  1</md:MentalDisorderDiagnosisSymptomsAttributableYes>
+			<md:MentalDisorderClinicalFindingsAddress>address</md:MentalDisorderClinicalFindingsAddress>
+			<md:MentalDisorderClinicalFindingsBehavioralHistory>2D. RELEVANT LEGAL AND BEHAVIORAL HISTORY (PRE-MILITARY, MILITARY, AND POST-MILITARY)</md:MentalDisorderClinicalFindingsBehavioralHistory>
+			<md:MentalDisorderClinicalFindingsDateSigned>
+				<nc:Date>2012-06-01</nc:Date>
+			</md:MentalDisorderClinicalFindingsDateSigned>
+			<md:MentalDisorderClinicalFindingsEvidenceReviwed>1. EVIDENCE REVIEW
+IF ANY RECORDS (EVIDENCE) WERE REVIEWED, PLEASE LIST</md:MentalDisorderClinicalFindingsEvidenceReviwed>
+			<md:MentalDisorderClinicalFindingsFax>completed fax</md:MentalDisorderClinicalFindingsFax>
+			<md:MentalDisorderClinicalFindingsManageOwnFinances>yes</md:MentalDisorderClinicalFindingsManageOwnFinances>
+			<md:MentalDisorderClinicalFindingsManageOwnFinancesExplaine>IS THE VETERAN CAPABLE OF MANAGING HIS OR HER FINANCIAL AFFAIRS?</md:MentalDisorderClinicalFindingsManageOwnFinancesExplaine>
+			<md:MentalDisorderClinicalFindingsMedicalLicense>license</md:MentalDisorderClinicalFindingsMedicalLicense>
+			<md:MentalDisorderClinicalFindingsMentalHealthHistory>2C. RELEVANT MENTAL HEALTH HISTORY, TO INCLUDE PRESCRIBED MEDICATIONS AND FAMILY MENTAL HEALTH (PRE-MILITARY, MILITARY, AND POST- MILITARY)</md:MentalDisorderClinicalFindingsMentalHealthHistory>
+			<md:MentalDisorderClinicalFindingsName>name</md:MentalDisorderClinicalFindingsName>
+			<md:MentalDisorderClinicalFindingsOccupationalHistory>2B. RELEVANT OCCUPATIONAL AND EDUCATIONAL HISTORY (PRE-MILITARY, MILITARY, AND POST-MILITARY)</md:MentalDisorderClinicalFindingsOccupationalHistory>
+			<md:MentalDisorderClinicalFindingsOtherHistory>2G. OTHER (If any)</md:MentalDisorderClinicalFindingsOtherHistory>
+			<md:MentalDisorderClinicalFindingsOtherSymptoms>yes</md:MentalDisorderClinicalFindingsOtherSymptoms>
+			<md:MentalDisorderClinicalFindingsOtherSymptomsDescribe>DOES THE VETERAN HAVE ANY OTHER SYMPTOMS ATTRIBUTABLE TO MENTAL DISORDERS THAT ARE NOT LISTED ABOVE?</md:MentalDisorderClinicalFindingsOtherSymptomsDescribe>
+			<md:MentalDisorderClinicalFindingsPhone>fax</md:MentalDisorderClinicalFindingsPhone>
+			<md:MentalDisorderClinicalFindingsRemarks>6. REMARKS(If any)</md:MentalDisorderClinicalFindingsRemarks>
+			<md:MentalDisorderClinicalFindingsSentinelEvents>2F. SENTINEL EVENT(S) (OTHER THAN STRESSORS)</md:MentalDisorderClinicalFindingsSentinelEvents>
+			<md:MentalDisorderClinicalFindingsSocialHistory>2A. RELEVANT SOCIAL/MARITAL/FAMILY HISTORY (PRE-MILITARY, MILITARY, AND POST-MILITARY)</md:MentalDisorderClinicalFindingsSocialHistory>
+			<md:MentalDisorderClinicalFindingsSubstanceAbuseHistory>2E. RELEVANT SUBSTANCE ABUSE HISTORY (PRE-MILITARY, MILITARY, AND POST-MILITARY)</md:MentalDisorderClinicalFindingsSubstanceAbuseHistory>
+			<md:MentalDisorderClinicalFindingsSymptoms>Depressed mood, Anxiety, Suspiciousness, Panic attacks that occur weekly or less often, Panic attacks more than once a week, Near-continuous panic or depression affecting the ability to function independently, appropriately and effectively, Chronic sleep impairment, Mild memory loss, such as forgetting names, directions or recent events, Impairment of short and long term memory, for example, retention of only highly learned material, while forgetting to complete tasks, Memory loss for names of close relatives, own occupation, or own name, Flattened affect, Neglect of personal appearance and hygiene</md:MentalDisorderClinicalFindingsSymptoms>
+		</md:MentalDisordersForm>
+	</cld:MedicalData>
+	<cld:Attachments/>
+</cld:Claim>

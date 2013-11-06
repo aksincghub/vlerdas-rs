@@ -1,0 +1,243 @@
+{	
+	"context": "/das/v1",
+	"vrs": {
+		"version":"11.0",
+		"homeCommunityId":"2.16.840.1.113883.4.349"
+	},
+	"server": {
+		"port": 3005,
+		"host": "localhost"
+	},
+	"secureServer": {
+		"port": 3006,
+		"host": "localhost",
+		"options" : {
+			"key": "config/server.key",
+			"cert": "config/server.crt"
+		}	
+	},
+	"accessControl.DISABLED": {
+        "testuser1": {
+                "accessKeyId": "testuser1",
+                "accessKeySecret": "pa$$w0rd1",
+                "allowMethods": "GET"
+        },
+        "testuser2": {
+                "accessKeyId": "testuser2",
+                "accessKeySecret": "pa$$w0rd2",
+                "allowMethods": "GET"
+        }
+     },
+     "resources": {
+    	"path1": {
+			"firstPass": [],
+			"secondPass": []
+		},
+     	"path2": {
+			"firstPass": [],
+			"secondPass": []
+		},
+     	"path3": {
+			"firstPass": [],
+			"secondPass": []
+		},
+		"path4": {
+			"firstPass": [ 
+					{ 
+						"cpath": "/health/clinicalDocuments/clinicalAssessments/cpExams", 
+						"producerList": [ 
+											{ 
+												"producerName": "ecrud_1p",
+												"producerCpath": "disabilityBenefitsQuestionnaires", 
+												"defaultQuery": "{ \"cld:Claim.cld:CommonData.nc:Person.nc:PersonSSNIdentification.nc:IdentificationID\": \"theCIDValue\" }"
+											}											
+									], 
+						"serviceList": [], 
+						"properties": {}												
+					},
+					{ 
+						"cpath": "/health/clinicalDocuments/historicalData/medicalHistory", 
+						"producerList": [ 
+											{ 
+												"producerName": "ecrud_1p",												
+												"producerCpath": "serviceTreatmentRecords",
+												"defaultQuery": "{ \"case:ServiceTreatmentRecord.case:CommonData.vler:Client.vler:ClientIdentifier.nc:IdentificationID\": \"theCIDValue\" }" 
+											},
+											{ 
+												"producerName": "haimsrw_1p"
+											}											
+									], 
+						"serviceList": [
+										    { 
+												"producerName": "pixSSNToAUN"												
+											} 
+										], 
+						"properties": {}												
+					}  
+				],
+			"secondPass": []
+		},
+		"path5": {
+			"firstPass": [ 
+					{ 
+						"cpath": "/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords", 
+						"producerList": [ 
+											{ 
+												"producerName": "ecrud_1p",												
+												"producerCpath": "serviceTreatmentRecords",
+												"defaultQuery": "{ \"case:ServiceTreatmentRecord.case:CommonData.vler:Client.vler:ClientIdentifier.nc:IdentificationID\": \"theCIDValue\" }" 
+											},
+											{ 
+												"producerName": "haimsrw_1p"
+											}											
+									],  
+						"serviceList": [ 
+											{ 
+												"producerName": "pixSSNToAUN"												
+											} 
+										 ], 
+						"properties": {}			
+					}  
+				],
+			"secondPass": [
+				    { 
+						"cpath": "/health/clinicalDocuments/clinicalAssessments/cpExams", 
+						"producerList": [ 
+											{ 
+												"producerName": "ecrud_2p",												
+												"producerCpath": "disabilityBenefitsQuestionnaires"
+											}											
+									],  
+						"serviceList": [], 
+						"properties": {}			
+					}  
+				]
+		},
+		"path6": {
+			"firstPass": [],
+			"secondPass": [
+					{ 
+						"cpath": "/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords", 
+						"producerList": [ 
+											{ 
+												"producerName": "ecrud_2p",												
+												"producerCpath": "serviceTreatmentRecords"
+											}											
+									],  
+						"serviceList": [], 
+						"properties": {}			
+					}  
+				]
+		}		
+	},
+	"endpoints": [
+		{
+			"producerName": "ecrud_1p",
+			"type":"1P",
+			"basehref":"http://localhost:3001/ecrud/v1/core",
+			"homeCommunityId": "2.16.840.1.113883.4.349",
+			"remoteRepositoryId": "vlersor",
+			"requiredQueryParams": [],
+			"optionalQueryParams": ["query","jpath"],
+			"options" : {
+				"method": "GET",
+				"headers": {},
+				"followRedirect": "true",
+				"timeout": "10000",
+				"maxRedirects": "10",
+				"strictSSL": "false"  
+			}
+		},
+		{
+			"producerName": "ecrud_2p",
+			"type":"2P",
+			"basehref":"http://localhost:3001/ecrud/v1/core/fs",
+			"homeCommunityId": "2.16.840.1.113883.4.349",
+			"remoteRepositoryId": "vlersor",
+			"requiredQueryParams": [],
+			"optionalQueryParams": [],
+			"options" : {
+				"method": "GET",
+				"headers": {},
+				"followRedirect": "true",
+				"timeout": "10000",
+				"maxRedirects": "10",
+				"strictSSL": "false"  
+			}
+		},
+		{
+			"producerName": "haimsrw_1p",
+			"type":"1P",
+			"basehref":"http://localhost:6001/haimsreadwrapper/v1",
+			"homeCommunityId": "2.16.840.1.113883.3.42.10001.100001.12",
+			"remoteRepositoryId": "3.33.333.3.333333.3.333",
+			"requiredQueryParams": ["cache"],
+			"optionalQueryParams": [],
+			"options" : {
+				"method": "GET",
+				"headers": {},
+				"followRedirect": "true",
+				"timeout": "10000",
+				"maxRedirects": "10",
+				"strictSSL": "false"  
+			}
+		},
+		{
+			"producerName": "haimsrw_2p",
+			"type":"2P",
+			"basehref":"http://localhost:6001/haimsdocretrieve/v1",
+			"homeCommunityId": "2.16.840.1.113883.3.42.10001.100001.12",
+			"remoteRepositoryId": "3.33.333.3.333333.3.333",
+			"requiredQueryParams": ["cache"],
+			"optionalQueryParams": [],
+			"options" : {
+				"method": "GET",
+				"headers": {},
+				"followRedirect": "true",
+				"timeout": "10000",
+				"maxRedirects": "10",
+				"strictSSL": "false"  
+			}
+		},
+		{
+			"producerName": "pixSSNToAUN",
+			"type":"SVC",
+			"basehref":"http://localhost:5001/2.16.840.1.113883.4.1",
+			"homeCommunityId": "",
+			"remoteRepositoryId": "",
+			"requiredQueryParams": [],
+			"optionalQueryParams": [], 
+			"options" : {
+				"method": "GET",
+				"headers": {},
+				"followRedirect": "true",
+				"timeout": "10000",
+				"maxRedirects": "10",
+				"strictSSL": "false" 
+			}
+		}
+	],
+	"feed": {	
+		"basehref":"http://localhost:3005/das/v1",
+		"title":"VLER Read Service",
+		"subtitle":"Benefits & Health Information Exchange",
+		"version":"11.0",
+		"gridfsPrefix":"gridfs://",
+		"firstPassAtomFeedJsonTemplate":"./lib/firstpassAtomFeedOneEntryOneLink_template.json",
+		"firstPassAtomEntryJsonTemplate":"./lib/firstpassAtomEntryOneLink_template.json",
+		"gridfsBasehref": "http://localhost:3001/ecrud/v1/core/fs",
+		"redirectHref" : "http://localhost?redirectURL="			
+	},
+	"debug": true,
+	"log" : {
+		"console" : {
+			"level" : "trace",
+			"colorize" : true,
+			"label": "VRS", 
+			"timestamp": true
+		},
+		"file" : {
+			"filename" : "vrs.log"
+		}
+	}
+}

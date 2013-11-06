@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cld:Claim xsi:schemaLocation="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/cld cld.xsd" xmlns:vler="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ac="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/ac" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:cld="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/cld">
+      <cld:DocumentTypeVersion>1.0</cld:DocumentTypeVersion>
+      <cld:ClaimID>2012-0000999</cld:ClaimID>
+      <cld:CommonData>
+        <nc:Document>
+          <nc:DocumentCreationDate>
+            <nc:DateTime>2012-09-30T16:27:38-05:00</nc:DateTime>
+          </nc:DocumentCreationDate>
+          <nc:DocumentDescriptionText>Ankle Conditions Form - Document Description</nc:DocumentDescriptionText>
+          <nc:DocumentIdentification>
+            <nc:IdentificationID>e586c66f-f4a8-4790-a54c-437e240c1094</nc:IdentificationID>
+          </nc:DocumentIdentification>
+          <nc:DocumentStatus>
+            <nc:StatusText>Completed</nc:StatusText>
+          </nc:DocumentStatus>
+          <nc:DocumentTitleText>Ankle Conditions Form - Title</nc:DocumentTitleText>
+        </nc:Document>
+        <vler:Client s:id="client">
+          <vler:ClientIdentifier>
+            <nc:IdentificationID>1012644549V503041</nc:IdentificationID>
+            <vler:AssigningAuthority>2.16.840.1.113883.4.349</vler:AssigningAuthority>
+          </vler:ClientIdentifier>
+          <vler:ClientStatus>
+            <vler:ClientStatusText>OK</vler:ClientStatusText>
+          </vler:ClientStatus>
+          <nc:RoleOfPersonReference s:ref="one"/>
+        </vler:Client>
+        <vler:ServiceProvider s:id="service_provider">
+          <vler:PersonIdentifier>
+            <nc:IdentificationID>02384902409002020209999</nc:IdentificationID>
+            <nc:IdentificationJurisdictionText>Harris Form System</nc:IdentificationJurisdictionText>
+          </vler:PersonIdentifier>
+          <vler:ServiceProviderRoleTitle>Physician - ServiceProviderRoleTitle</vler:ServiceProviderRoleTitle>
+          <nc:RoleOfPersonReference s:ref="two"/>
+        </vler:ServiceProvider>
+        <nc:Person s:id="two">
+          <nc:PersonName>
+            <nc:PersonGivenName>ServiceProviderFirstName</nc:PersonGivenName>
+            <nc:PersonMiddleName>ServiceProviderMiddleName</nc:PersonMiddleName>
+            <nc:PersonSurName>ServiceProviderLastName</nc:PersonSurName>
+          </nc:PersonName>
+        </nc:Person>
+        <nc:Person s:id="one">
+          <nc:PersonBirthDate>
+            <nc:Date>1980-12-28</nc:Date>
+          </nc:PersonBirthDate>
+          <nc:PersonName>
+            <nc:PersonGivenName>CHDRAMDDEV</nc:PersonGivenName>
+            <nc:PersonMiddleName/>
+            <nc:PersonSurName>PATONE</nc:PersonSurName>
+          </nc:PersonName>
+          <nc:PersonSexCode>M</nc:PersonSexCode>
+          <nc:PersonSSNIdentification>
+            <nc:IdentificationID>666580001</nc:IdentificationID>
+          </nc:PersonSSNIdentification>
+        </nc:Person>
+        <nc:Facility>
+          <nc:FacilityIdentification>
+            <nc:IdentificationID>619</nc:IdentificationID>
+            <nc:IdentificationJurisdictionText>CENTRAL-ALABAMA.MED.VA.GOV</nc:IdentificationJurisdictionText>
+          </nc:FacilityIdentification>
+          <nc:FacilityName>CENTRAL ALABAMA VETERANS HEALTH CARE SYSTEMWEST CAMPUS</nc:FacilityName>
+        </nc:Facility>
+        <vler:ServiceProviderClientAssociation>
+          <vler:ServiceProviderReference s:ref="service_provider"/>
+          <vler:ClientReference s:ref="client"/>
+        </vler:ServiceProviderClientAssociation>
+      </cld:CommonData>
+      <cld:MedicalData>
+        <ac:AnkleConditionsForm>
+        	<ac:AnkleDiagnosisDiagnosis1SideAffected>Left</ac:AnkleDiagnosisDiagnosis1SideAffected>
+        	<ac:AnkleDiagnosisDiagnosis2>Ankylosis of ankle</ac:AnkleDiagnosisDiagnosis2>
+        	<ac:AnkleDiagnosisDiagnosis2Date>
+            <nc:Date>1988-05-11</nc:Date>
+        	</ac:AnkleDiagnosisDiagnosis2Date>
+        	<ac:AnkleDiagnosisDiagnosis2Icd>718.57</ac:AnkleDiagnosisDiagnosis2Icd>
+        	<ac:AnkleDiagnosisDiagnosis2SideAffected>Left</ac:AnkleDiagnosisDiagnosis2SideAffected>
+        	<ac:AnkleDiagnosisDiagnosis3>Trimalleolar fracture</ac:AnkleDiagnosisDiagnosis3>
+        	<ac:AnkleDiagnosisDiagnosis3Date>
+            <nc:Date>1980-08-14</nc:Date>
+        	</ac:AnkleDiagnosisDiagnosis3Date>
+        	<ac:AnkleDiagnosisDiagnosis3Icd>824.6</ac:AnkleDiagnosisDiagnosis3Icd>
+        	<ac:AnkleDiagnosisDiagnosis3SideAffected>Left</ac:AnkleDiagnosisDiagnosis3SideAffected>
+        	<ac:AnkleDiagnosisDisgnosis1>osteoarthritis of ankle</ac:AnkleDiagnosisDisgnosis1>
+        	<ac:AnkleDiagnosisDisgnosis1Date>
+            <nc:Date>2010-11-02</nc:Date>
+        	</ac:AnkleDiagnosisDisgnosis1Date>
+        	<ac:AnkleDiagnosisDisgnosis1Icd>715.27</ac:AnkleDiagnosisDisgnosis1Icd>
+        	<ac:AnkleDiagnosisHaveAnkleConditions>yes</ac:AnkleDiagnosisHaveAnkleConditions>
+        	<ac:AnkleMedicalHistoryBriefSummary>&amp;quot;Aug1980-as Active Duty Army paratrooper,sustained fractured left ankle lateral malleolus. 
+        	Nov2010- treated for left ankle osteoarthritis with decreased mobility and worsening pain.&amp;quot;</ac:AnkleMedicalHistoryBriefSummary>
+        	<ac:AnkleFlareUpsDescribe>Veteran reports if he walks more than 10 minutes or stands more than 20 minutes the pain significantly worsens and difficult to bear weight with the left leg.</ac:AnkleFlareUpsDescribe>
+        	<ac:AnkleFlareUpsFlareUpsImpactAnkle>yes</ac:AnkleFlareUpsFlareUpsImpactAnkle>
+        	<ac:AnkleRomMeasurementsLeftAnkleExtensionEnds>10</ac:AnkleRomMeasurementsLeftAnkleExtensionEnds>
+        	<ac:AnkleRomMeasurementsLeftAnkleExtensionPainfulBegins>5</ac:AnkleRomMeasurementsLeftAnkleExtensionPainfulBegins>
+        	<ac:AnkleRomMeasurementsLeftPlantarFlexionEnds>35</ac:AnkleRomMeasurementsLeftPlantarFlexionEnds>
+        	<ac:AnkleRomMeasurementsLeftPlantarFlexionPainfulBegins>NO OBJECTIVE EVIDENCE OF PAINFUL MOTION</ac:AnkleRomMeasurementsLeftPlantarFlexionPainfulBegins>
+        	<ac:AnkleRomMeasurementsRightAnkleExtensionEnds>15</ac:AnkleRomMeasurementsRightAnkleExtensionEnds>
+        	<ac:AnkleRomMeasurementsRightAnkleExtensionPainfulBegins>NO OBJECTIVE EVIDENCE OF PAINFUL MOTION</ac:AnkleRomMeasurementsRightAnkleExtensionPainfulBegins>
+        	<ac:AnkleRomMeasurementsRightPlantarFlexionEnds>35</ac:AnkleRomMeasurementsRightPlantarFlexionEnds>
+        	<ac:AnkleRomMeasurementsRightPlantarFlexionPainfulBegins>NO OBJECTIVE EVIDENCE OF PAINFUL MOTION</ac:AnkleRomMeasurementsRightPlantarFlexionPainfulBegins>
+        	<ac:AnkleRomAfterRepetitiveUseTestingAbleToPerformWith3Repetitions>yes</ac:AnkleRomAfterRepetitiveUseTestingAbleToPerformWith3Repetitions>
+        	<ac:AnkleRomAfterRepetitiveUseTestingLeftAnkleExtensionEnds>10</ac:AnkleRomAfterRepetitiveUseTestingLeftAnkleExtensionEnds>
+        	<ac:AnkleRomAfterRepetitiveUseTestingLeftPlantarFlexionEnds>35</ac:AnkleRomAfterRepetitiveUseTestingLeftPlantarFlexionEnds>
+        	<ac:AnkleRomAfterRepetitiveUseTestingRightAnkleExtensionEnds>15</ac:AnkleRomAfterRepetitiveUseTestingRightAnkleExtensionEnds>
+        	<ac:AnkleRomAfterRepetitiveUseTestingRightPlantarFlexionEnds>35</ac:AnkleRomAfterRepetitiveUseTestingRightPlantarFlexionEnds>
+        	<ac:AnkleFunctionalLossExcessFatigability>yes</ac:AnkleFunctionalLossExcessFatigability>
+        	<ac:AnkleFunctionalLossExcessFatigabilitySide>Left</ac:AnkleFunctionalLossExcessFatigabilitySide>
+        	<ac:AnkleFunctionalLossHaveAdditionalLimitation>no</ac:AnkleFunctionalLossHaveAdditionalLimitation>
+        	<ac:AnkleFunctionalLossHaveFunctionalLoss>yes</ac:AnkleFunctionalLossHaveFunctionalLoss>
+        	<ac:AnkleFunctionalLossIncoordination>yes</ac:AnkleFunctionalLossIncoordination>
+        	<ac:AnkleFunctionalLossIncoordinationSide>Left</ac:AnkleFunctionalLossIncoordinationSide>
+        	<ac:AnkleFunctionalLossInterference>yes</ac:AnkleFunctionalLossInterference>
+        	<ac:AnkleFunctionalLossInterferenceSide>Left</ac:AnkleFunctionalLossInterferenceSide>
+        	<ac:AnkleFunctionalLossPainOnMovement>yes</ac:AnkleFunctionalLossPainOnMovement>
+        	<ac:AnkleFunctionalLossPainOnMovementSide>Left</ac:AnkleFunctionalLossPainOnMovementSide>
+        	<ac:AnkleFunctionalLossWeakenedMovement>yes</ac:AnkleFunctionalLossWeakenedMovement>
+        	<ac:AnkleFunctionalLossWeakenedMovementSide>Left</ac:AnkleFunctionalLossWeakenedMovementSide>
+        	<ac:AnklePainHavePain>yes</ac:AnklePainHavePain>
+        	<ac:AnklePainSide>Left</ac:AnklePainSide>
+        	<ac:AnkleMuscleStrengthTestingLeftAnkleExtension>3/5</ac:AnkleMuscleStrengthTestingLeftAnkleExtension>
+        	<ac:AnkleMuscleStrengthTestingLeftAnklePlantarFlexion>3/5</ac:AnkleMuscleStrengthTestingLeftAnklePlantarFlexion>
+        	<ac:AnkleMuscleStrengthTestingRightAnkleExtension>4/5</ac:AnkleMuscleStrengthTestingRightAnkleExtension>
+        	<ac:AnkleMuscleStrengthTestingRightAnklePlantarFlexion>4/5</ac:AnkleMuscleStrengthTestingRightAnklePlantarFlexion>
+        	<ac:AnkleJointStabilityAnteriorDrawerTest>Yes</ac:AnkleJointStabilityAnteriorDrawerTest>
+        	<ac:AnkleJointStabilityAnteriorSide>Left</ac:AnkleJointStabilityAnteriorSide>
+        	<ac:AnkleJointStabilityTalarSide>Left</ac:AnkleJointStabilityTalarSide>
+        	<ac:AnkleJointStabilityTalarTiltTest>Yes</ac:AnkleJointStabilityTalarTiltTest>
+        	<ac:AnkleAnkylosisExtensionAtMoreThan10>yes</ac:AnkleAnkylosisExtensionAtMoreThan10>
+        	<ac:AnkleAnkylosisExtensionAtMoreThan10Side>Left</ac:AnkleAnkylosisExtensionAtMoreThan10Side>
+        	<ac:AnkleAnkylosisFlexionBetween30And40>yes</ac:AnkleAnkylosisFlexionBetween30And40>
+        	<ac:AnkleAnkylosisFlexionBetween30And40Side>Left</ac:AnkleAnkylosisFlexionBetween30And40Side>
+        	<ac:AnkleAnkylosisHaveAnkylosis>yes</ac:AnkleAnkylosisHaveAnkylosis>
+        	<ac:AnkleAdditionalConditionsHaveAdditionalConditions>no</ac:AnkleAdditionalConditionsHaveAdditionalConditions>
+        	<ac:AnkleJointReplacementAnkleSurgerySide>Left</ac:AnkleJointReplacementAnkleSurgerySide>
+        	<ac:AnkleJointReplacementDescribeResiduals>anklyosis and osteoarthritis</ac:AnkleJointReplacementDescribeResiduals>
+        	<ac:AnkleJointReplacementHadAnkleSurgery>yes</ac:AnkleJointReplacementHadAnkleSurgery>
+        	<ac:AnkleJointReplacementHaveJointReplacement>no</ac:AnkleJointReplacementHaveJointReplacement>
+        	<ac:AnkleJointReplacementHaveSymptomsDueSurgery>yes</ac:AnkleJointReplacementHaveSymptomsDueSurgery>
+        	<ac:AnkleJointReplacementHaveSymptomsDueSurgerySide>Left</ac:AnkleJointReplacementHaveSymptomsDueSurgerySide>
+        	<ac:AnkleJointReplacementSurgeryDate>
+            <nc:Date>1980-08-14</nc:Date>
+        	</ac:AnkleJointReplacementSurgeryDate>
+        	<ac:AnkleJointReplacementSurgeryType>open repair of trimalleolar ankle fracture</ac:AnkleJointReplacementSurgeryType>
+        	<ac:AnkleOtherHaveOtherFindings>no</ac:AnkleOtherHaveOtherFindings>
+        	<ac:AnkleOtherHaveScars>yes</ac:AnkleOtherHaveScars>
+        	<ac:AnkleOtherScarsPainful>no</ac:AnkleOtherScarsPainful>
+        	<ac:AnkleAssistiveDevicesCanes>yes</ac:AnkleAssistiveDevicesCanes>
+        	<ac:AnkleAssistiveDevicesCanesFrequency>Regular</ac:AnkleAssistiveDevicesCanesFrequency>
+        	<ac:AnkleAssistiveDevicesCondition>uses cane if going to be walking for longer periods; will occasionally use a wheelchair if flare up is present and if prolonged walking or standing are required.</ac:AnkleAssistiveDevicesCondition>
+        	<ac:AnkleAssistiveDevicesUseAssistiveDevices>yes</ac:AnkleAssistiveDevicesUseAssistiveDevices>
+        	<ac:AnkleAssistiveDevicesWheelchair>yes</ac:AnkleAssistiveDevicesWheelchair>
+        	<ac:AnkleAssistiveDevicesWheelchairFrequency>Occasional</ac:AnkleAssistiveDevicesWheelchairFrequency>
+        	<ac:AnkleRemainingEffectiveFunctionShouldAmputate>no</ac:AnkleRemainingEffectiveFunctionShouldAmputate>
+        	<ac:AnkleDiagnosticTestingAbnormalFindings>yes</ac:AnkleDiagnosticTestingAbnormalFindings>
+        	<ac:AnkleDiagnosticTestingAnkylosis>yes</ac:AnkleDiagnosticTestingAnkylosis>
+        	<ac:AnkleDiagnosticTestingAnkylosisSide>Left</ac:AnkleDiagnosticTestingAnkylosisSide>
+        	<ac:AnkleDiagnosticTestingArthritis>yes</ac:AnkleDiagnosticTestingArthritis>
+        	<ac:AnkleDiagnosticTestingArthritisSide>Left</ac:AnkleDiagnosticTestingArthritisSide>
+        	<ac:AnkleDiagnosticTestingOtherTestFindings>no</ac:AnkleDiagnosticTestingOtherTestFindings>
+        	<ac:AnkleDiagnosticTestingStudiesPerformed>yes</ac:AnkleDiagnosticTestingStudiesPerformed>
+        	<ac:AnkleFunctionalImpactDescribe>Veteran cannot tolerate more than 5 minutes of walking or 20 minutes of standing without use of assistive device.</ac:AnkleFunctionalImpactDescribe>
+        	<ac:AnkleFunctionalImpactImpactWorkAbility>yes</ac:AnkleFunctionalImpactImpactWorkAbility>
+        	<ac:AnklePhysiciansCertificationAddress>123 Walker Lane
+        	St. Petersburg, FL 33710</ac:AnklePhysiciansCertificationAddress>
+        	<ac:AnklePhysiciansCertificationDateSigned>
+            <nc:Date>2012-09-19</nc:Date>
+        	</ac:AnklePhysiciansCertificationDateSigned>
+        	<ac:AnklePhysiciansCertificationLicenseNumber>MD445566</ac:AnklePhysiciansCertificationLicenseNumber>
+        	<ac:AnklePhysiciansCertificationName>Tom D Jones</ac:AnklePhysiciansCertificationName>
+        	<ac:AnklePhysiciansCertificationPhone>555-555-8765, 555-555-8766</ac:AnklePhysiciansCertificationPhone>
+        </ac:AnkleConditionsForm>
+      </cld:MedicalData>
+      <cld:Attachments>
+        <nc:Attachment>
+      		<nc:BinaryBase64Object>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</nc:BinaryBase64Object>
+      		<nc:BinaryLocationURI>Brain Images.jpg</nc:BinaryLocationURI>
+      		<nc:BinaryCategoryText/>
+      		<nc:BinaryDescriptionText/>
+      		<nc:BinaryFormatStandardName>image/pjpeg</nc:BinaryFormatStandardName>
+      		<nc:BinarySizeValue>15147</nc:BinarySizeValue>
+        </nc:Attachment>
+      </cld:Attachments>
+ </cld:Claim>   

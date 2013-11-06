@@ -1,0 +1,22 @@
+{
+"entry": {
+      "title": "None",
+      "category": { "-term": "Unknown" },
+      "id": "unknown",
+      "published": "unknown",
+      "updated": "unknown",
+      "author": { "name": "Unknown" },
+      "content": {
+        "-type": "*/*",
+        "#text": "insert content here"
+      },
+      "link": {
+        "-title": "Unknown",
+        "-href": "https://localhost/core/fs/000000000000000000000000",
+        "-rel": "enclosure",
+        "-type": "*/*",
+        "-hreflang": "en",
+        "-length": "1000000"
+      }
+    }
+}

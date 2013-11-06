@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cld:Claim xsi:schemaLocation="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/cld cld.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:vler="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/vler" xmlns:cld="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/cld" xmlns:ac="http://va.gov/vler/schemas/vlerSupersetSchema/0.7/ac">
+    <cld:DocumentTypeVersion>1.0</cld:DocumentTypeVersion>
+    <cld:ClaimID>2012-0000353</cld:ClaimID>
+    <cld:CommonData>
+        <nc:Document>
+            <nc:DocumentCreationDate>
+                <nc:DateTime>2012-08-09T16:27:38-05:00</nc:DateTime>
+            </nc:DocumentCreationDate>
+            <nc:DocumentDescriptionText>Ankle Conditions Form</nc:DocumentDescriptionText>
+            <nc:DocumentIdentification>
+                <nc:IdentificationID>1010007</nc:IdentificationID>
+            </nc:DocumentIdentification>
+            <nc:DocumentStatus>
+                <nc:StatusText>Complete</nc:StatusText>
+            </nc:DocumentStatus>
+            <nc:DocumentTitleText>Ankle Conditions Form</nc:DocumentTitleText>
+        </nc:Document>
+        <vler:Client s:id="client">
+            <vler:ClientIdentifier>
+                <nc:IdentificationID>
+                    987654321
+                </nc:IdentificationID>
+                <vler:AssigningAuthority>2.16.840.1.113883.4.349</vler:AssigningAuthority>
+            </vler:ClientIdentifier>
+            <vler:ClientStatus>
+                <vler:ClientStatusText>OK</vler:ClientStatusText>
+            </vler:ClientStatus>
+            <nc:RoleOfPersonReference s:ref="one"/>
+        </vler:Client>
+        <vler:ServiceProvider s:id="service_provider">
+            <vler:PersonIdentifier>
+                <nc:IdentificationID>
+                    02384902409002020209999
+                </nc:IdentificationID>
+                <nc:IdentificationJurisdictionText>Harris Form System</nc:IdentificationJurisdictionText>
+            </vler:PersonIdentifier>
+            <vler:ServiceProviderRoleTitle>Physician</vler:ServiceProviderRoleTitle>
+            <nc:RoleOfPersonReference s:ref="two"/>
+        </vler:ServiceProvider>
+        <nc:Person s:id="two">
+            <nc:PersonName>
+                <nc:PersonGivenName>
+                    Frank
+                </nc:PersonGivenName>
+                <nc:PersonMiddleName>
+                    A
+                </nc:PersonMiddleName>
+                <nc:PersonSurName>
+                    James
+                </nc:PersonSurName>
+            </nc:PersonName>
+        </nc:Person>
+        <nc:Person s:id="one">
+            <nc:PersonBirthDate>
+                <nc:Date>
+                    1940-08-09
+                </nc:Date>
+            </nc:PersonBirthDate>
+            <nc:PersonName>
+                <nc:PersonGivenName>
+                    Brandon
+                </nc:PersonGivenName>
+                <nc:PersonMiddleName>
+                    L
+                </nc:PersonMiddleName>
+                <nc:PersonSurName>
+                    Cooper
+                </nc:PersonSurName>
+            </nc:PersonName>
+            <nc:PersonSexCode>M</nc:PersonSexCode>
+            <nc:PersonSSNIdentification>
+                 <nc:IdentificationID>
+                    987654321
+                </nc:IdentificationID>
+            </nc:PersonSSNIdentification>
+        </nc:Person>
+        <nc:Facility>
+            <nc:FacilityIdentification>
+                <nc:IdentificationID>644</nc:IdentificationID>
+                <nc:IdentificationJurisdictionText>PHOENIX.MED.VA.GOV</nc:IdentificationJurisdictionText>
+            </nc:FacilityIdentification>
+             <nc:FacilityName>
+                CARL T. HAYDEN VA MEDICAL CENTER
+            </nc:FacilityName>
+        </nc:Facility>
+        <vler:ServiceProviderClientAssociation>
+            <vler:ServiceProviderReference s:ref="service_provider"/>
+            <vler:ClientReference s:ref="client"/>
+        </vler:ServiceProviderClientAssociation>
+    </cld:CommonData>
+    <cld:MedicalData>
+        <ac:AnkleConditionsForm>
+        	<ac:AnkleDiagnosisDiagnosis1SideAffected>Left</ac:AnkleDiagnosisDiagnosis1SideAffected>
+        	<ac:AnkleDiagnosisDiagnosis2>Ankylosis of ankle</ac:AnkleDiagnosisDiagnosis2>
+        	<ac:AnkleDiagnosisDiagnosis2Date>
+            <nc:Date>1988-05-11</nc:Date>
+        	</ac:AnkleDiagnosisDiagnosis2Date>
+        	<ac:AnkleDiagnosisDiagnosis2Icd>718.57</ac:AnkleDiagnosisDiagnosis2Icd>
+        	<ac:AnkleDiagnosisDiagnosis2SideAffected>Left</ac:AnkleDiagnosisDiagnosis2SideAffected>
+        	<ac:AnkleDiagnosisDiagnosis3>Trimalleolar fracture</ac:AnkleDiagnosisDiagnosis3>
+        	<ac:AnkleDiagnosisDiagnosis3Date>
+            <nc:Date>1980-08-14</nc:Date>
+        	</ac:AnkleDiagnosisDiagnosis3Date>
+        	<ac:AnkleDiagnosisDiagnosis3Icd>824.6</ac:AnkleDiagnosisDiagnosis3Icd>
+        	<ac:AnkleDiagnosisDiagnosis3SideAffected>Left</ac:AnkleDiagnosisDiagnosis3SideAffected>
+        	<ac:AnkleDiagnosisDisgnosis1>osteoarthritis of ankle</ac:AnkleDiagnosisDisgnosis1>
+        	<ac:AnkleDiagnosisDisgnosis1Date>
+            <nc:Date>2010-11-02</nc:Date>
+        	</ac:AnkleDiagnosisDisgnosis1Date>
+        	<ac:AnkleDiagnosisDisgnosis1Icd>715.27</ac:AnkleDiagnosisDisgnosis1Icd>
+        	<ac:AnkleDiagnosisHaveAnkleConditions>yes</ac:AnkleDiagnosisHaveAnkleConditions>
+        	<ac:AnkleMedicalHistoryBriefSummary>&amp;quot;Aug1980-as Active Duty Army paratrooper,sustained fractured left ankle lateral malleolus. 
+        	Nov2010- treated for left ankle osteoarthritis with decreased mobility and worsening pain.&amp;quot;</ac:AnkleMedicalHistoryBriefSummary>
+        	<ac:AnkleFlareUpsDescribe>Veteran reports if he walks more than 10 minutes or stands more than 20 minutes the pain significantly worsens and difficult to bear weight with the left leg.</ac:AnkleFlareUpsDescribe>
+        	<ac:AnkleFlareUpsFlareUpsImpactAnkle>yes</ac:AnkleFlareUpsFlareUpsImpactAnkle>
+        	<ac:AnkleRomMeasurementsLeftAnkleExtensionEnds>10</ac:AnkleRomMeasurementsLeftAnkleExtensionEnds>
+        	<ac:AnkleRomMeasurementsLeftAnkleExtensionPainfulBegins>5</ac:AnkleRomMeasurementsLeftAnkleExtensionPainfulBegins>
+        	<ac:AnkleRomMeasurementsLeftPlantarFlexionEnds>35</ac:AnkleRomMeasurementsLeftPlantarFlexionEnds>
+        	<ac:AnkleRomMeasurementsLeftPlantarFlexionPainfulBegins>NO OBJECTIVE EVIDENCE OF PAINFUL MOTION</ac:AnkleRomMeasurementsLeftPlantarFlexionPainfulBegins>
+        	<ac:AnkleRomMeasurementsRightAnkleExtensionEnds>15</ac:AnkleRomMeasurementsRightAnkleExtensionEnds>
+        	<ac:AnkleRomMeasurementsRightAnkleExtensionPainfulBegins>NO OBJECTIVE EVIDENCE OF PAINFUL MOTION</ac:AnkleRomMeasurementsRightAnkleExtensionPainfulBegins>
+        	<ac:AnkleRomMeasurementsRightPlantarFlexionEnds>35</ac:AnkleRomMeasurementsRightPlantarFlexionEnds>
+        	<ac:AnkleRomMeasurementsRightPlantarFlexionPainfulBegins>NO OBJECTIVE EVIDENCE OF PAINFUL MOTION</ac:AnkleRomMeasurementsRightPlantarFlexionPainfulBegins>
+        	<ac:AnkleRomAfterRepetitiveUseTestingAbleToPerformWith3Repetitions>yes</ac:AnkleRomAfterRepetitiveUseTestingAbleToPerformWith3Repetitions>
+        	<ac:AnkleRomAfterRepetitiveUseTestingLeftAnkleExtensionEnds>10</ac:AnkleRomAfterRepetitiveUseTestingLeftAnkleExtensionEnds>
+        	<ac:AnkleRomAfterRepetitiveUseTestingLeftPlantarFlexionEnds>35</ac:AnkleRomAfterRepetitiveUseTestingLeftPlantarFlexionEnds>
+        	<ac:AnkleRomAfterRepetitiveUseTestingRightAnkleExtensionEnds>15</ac:AnkleRomAfterRepetitiveUseTestingRightAnkleExtensionEnds>
+        	<ac:AnkleRomAfterRepetitiveUseTestingRightPlantarFlexionEnds>35</ac:AnkleRomAfterRepetitiveUseTestingRightPlantarFlexionEnds>
+        	<ac:AnkleFunctionalLossExcessFatigability>yes</ac:AnkleFunctionalLossExcessFatigability>
+        	<ac:AnkleFunctionalLossExcessFatigabilitySide>Left</ac:AnkleFunctionalLossExcessFatigabilitySide>
+        	<ac:AnkleFunctionalLossHaveAdditionalLimitation>no</ac:AnkleFunctionalLossHaveAdditionalLimitation>
+        	<ac:AnkleFunctionalLossHaveFunctionalLoss>yes</ac:AnkleFunctionalLossHaveFunctionalLoss>
+        	<ac:AnkleFunctionalLossIncoordination>yes</ac:AnkleFunctionalLossIncoordination>
+        	<ac:AnkleFunctionalLossIncoordinationSide>Left</ac:AnkleFunctionalLossIncoordinationSide>
+        	<ac:AnkleFunctionalLossInterference>yes</ac:AnkleFunctionalLossInterference>
+        	<ac:AnkleFunctionalLossInterferenceSide>Left</ac:AnkleFunctionalLossInterferenceSide>
+        	<ac:AnkleFunctionalLossPainOnMovement>yes</ac:AnkleFunctionalLossPainOnMovement>
+        	<ac:AnkleFunctionalLossPainOnMovementSide>Left</ac:AnkleFunctionalLossPainOnMovementSide>
+        	<ac:AnkleFunctionalLossWeakenedMovement>yes</ac:AnkleFunctionalLossWeakenedMovement>
+        	<ac:AnkleFunctionalLossWeakenedMovementSide>Left</ac:AnkleFunctionalLossWeakenedMovementSide>
+        	<ac:AnklePainHavePain>yes</ac:AnklePainHavePain>
+        	<ac:AnklePainSide>Left</ac:AnklePainSide>
+        	<ac:AnkleMuscleStrengthTestingLeftAnkleExtension>3/5</ac:AnkleMuscleStrengthTestingLeftAnkleExtension>
+        	<ac:AnkleMuscleStrengthTestingLeftAnklePlantarFlexion>3/5</ac:AnkleMuscleStrengthTestingLeftAnklePlantarFlexion>
+        	<ac:AnkleMuscleStrengthTestingRightAnkleExtension>4/5</ac:AnkleMuscleStrengthTestingRightAnkleExtension>
+        	<ac:AnkleMuscleStrengthTestingRightAnklePlantarFlexion>4/5</ac:AnkleMuscleStrengthTestingRightAnklePlantarFlexion>
+        	<ac:AnkleJointStabilityAnteriorDrawerTest>Yes</ac:AnkleJointStabilityAnteriorDrawerTest>
+        	<ac:AnkleJointStabilityAnteriorSide>Left</ac:AnkleJointStabilityAnteriorSide>
+        	<ac:AnkleJointStabilityTalarSide>Left</ac:AnkleJointStabilityTalarSide>
+        	<ac:AnkleJointStabilityTalarTiltTest>Yes</ac:AnkleJointStabilityTalarTiltTest>
+        	<ac:AnkleAnkylosisExtensionAtMoreThan10>yes</ac:AnkleAnkylosisExtensionAtMoreThan10>
+        	<ac:AnkleAnkylosisExtensionAtMoreThan10Side>Left</ac:AnkleAnkylosisExtensionAtMoreThan10Side>
+        	<ac:AnkleAnkylosisFlexionBetween30And40>yes</ac:AnkleAnkylosisFlexionBetween30And40>
+        	<ac:AnkleAnkylosisFlexionBetween30And40Side>Left</ac:AnkleAnkylosisFlexionBetween30And40Side>
+        	<ac:AnkleAnkylosisHaveAnkylosis>yes</ac:AnkleAnkylosisHaveAnkylosis>
+        	<ac:AnkleAdditionalConditionsHaveAdditionalConditions>no</ac:AnkleAdditionalConditionsHaveAdditionalConditions>
+        	<ac:AnkleJointReplacementAnkleSurgerySide>Left</ac:AnkleJointReplacementAnkleSurgerySide>
+        	<ac:AnkleJointReplacementDescribeResiduals>anklyosis and osteoarthritis</ac:AnkleJointReplacementDescribeResiduals>
+        	<ac:AnkleJointReplacementHadAnkleSurgery>yes</ac:AnkleJointReplacementHadAnkleSurgery>
+        	<ac:AnkleJointReplacementHaveJointReplacement>no</ac:AnkleJointReplacementHaveJointReplacement>
+        	<ac:AnkleJointReplacementHaveSymptomsDueSurgery>yes</ac:AnkleJointReplacementHaveSymptomsDueSurgery>
+        	<ac:AnkleJointReplacementHaveSymptomsDueSurgerySide>Left</ac:AnkleJointReplacementHaveSymptomsDueSurgerySide>
+        	<ac:AnkleJointReplacementSurgeryDate>
+            <nc:Date>1980-08-14</nc:Date>
+        	</ac:AnkleJointReplacementSurgeryDate>
+        	<ac:AnkleJointReplacementSurgeryType>open repair of trimalleolar ankle fracture</ac:AnkleJointReplacementSurgeryType>
+        	<ac:AnkleOtherHaveOtherFindings>no</ac:AnkleOtherHaveOtherFindings>
+        	<ac:AnkleOtherHaveScars>yes</ac:AnkleOtherHaveScars>
+        	<ac:AnkleOtherScarsPainful>no</ac:AnkleOtherScarsPainful>
+        	<ac:AnkleAssistiveDevicesCanes>yes</ac:AnkleAssistiveDevicesCanes>
+        	<ac:AnkleAssistiveDevicesCanesFrequency>Regular</ac:AnkleAssistiveDevicesCanesFrequency>
+        	<ac:AnkleAssistiveDevicesCondition>uses cane if going to be walking for longer periods; will occasionally use a wheelchair if flare up is present and if prolonged walking or standing are required.</ac:AnkleAssistiveDevicesCondition>
+        	<ac:AnkleAssistiveDevicesUseAssistiveDevices>yes</ac:AnkleAssistiveDevicesUseAssistiveDevices>
+        	<ac:AnkleAssistiveDevicesWheelchair>yes</ac:AnkleAssistiveDevicesWheelchair>
+        	<ac:AnkleAssistiveDevicesWheelchairFrequency>Occasional</ac:AnkleAssistiveDevicesWheelchairFrequency>
+        	<ac:AnkleRemainingEffectiveFunctionShouldAmputate>no</ac:AnkleRemainingEffectiveFunctionShouldAmputate>
+        	<ac:AnkleDiagnosticTestingAbnormalFindings>yes</ac:AnkleDiagnosticTestingAbnormalFindings>
+        	<ac:AnkleDiagnosticTestingAnkylosis>yes</ac:AnkleDiagnosticTestingAnkylosis>
+        	<ac:AnkleDiagnosticTestingAnkylosisSide>Left</ac:AnkleDiagnosticTestingAnkylosisSide>
+        	<ac:AnkleDiagnosticTestingArthritis>yes</ac:AnkleDiagnosticTestingArthritis>
+        	<ac:AnkleDiagnosticTestingArthritisSide>Left</ac:AnkleDiagnosticTestingArthritisSide>
+        	<ac:AnkleDiagnosticTestingOtherTestFindings>no</ac:AnkleDiagnosticTestingOtherTestFindings>
+        	<ac:AnkleDiagnosticTestingStudiesPerformed>yes</ac:AnkleDiagnosticTestingStudiesPerformed>
+        	<ac:AnkleFunctionalImpactDescribe>Veteran cannot tolerate more than 5 minutes of walking or 20 minutes of standing without use of assistive device.</ac:AnkleFunctionalImpactDescribe>
+        	<ac:AnkleFunctionalImpactImpactWorkAbility>yes</ac:AnkleFunctionalImpactImpactWorkAbility>
+        	<ac:AnklePhysiciansCertificationAddress>123 Walker Lane
+        	St. Petersburg, FL 33710</ac:AnklePhysiciansCertificationAddress>
+        	<ac:AnklePhysiciansCertificationDateSigned>
+            <nc:Date>2012-09-19</nc:Date>
+        	</ac:AnklePhysiciansCertificationDateSigned>
+        	<ac:AnklePhysiciansCertificationLicenseNumber>MD445566</ac:AnklePhysiciansCertificationLicenseNumber>
+        	<ac:AnklePhysiciansCertificationName>Tom D Jones</ac:AnklePhysiciansCertificationName>
+        	<ac:AnklePhysiciansCertificationPhone>555-555-8765, 555-555-8766</ac:AnklePhysiciansCertificationPhone>
+        </ac:AnkleConditionsForm>
+    </cld:MedicalData>
+    <cld:Attachments>
+        <nc:Attachment>
+            <nc:BinaryBase64Object>GpM7</nc:BinaryBase64Object>
+			<nc:BinaryDescriptionText>Leg</nc:BinaryDescriptionText>
+            <nc:BinaryFormatStandardName>image/jpeg</nc:BinaryFormatStandardName>
+            <nc:BinaryLocationURI>AnkleXRay.jpg</nc:BinaryLocationURI>
+            <nc:BinarySizeValue>10241024</nc:BinarySizeValue>
+            <nc:BinaryCategoryText>X-Rays</nc:BinaryCategoryText>
+        </nc:Attachment>
+    </cld:Attachments>
+</cld:Claim>
