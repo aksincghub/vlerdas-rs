@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+    xmlns:case="http://vler.va.gov/vler/schemas/health/clinicalDocuments/serviceTreatmentRecord/1.3"
+    xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:vler="http://vler.va.gov/vler/schemas/vlerSupersetSchema/0.7/vler"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom ../XMLschemas/atom/2005/vler/0.2/atom.xsd">
+    <title type="text">VLER DAS HAIMS Read Wrapper ver. 0.1</title>
+    <subtitle type="text">Benefits &amp; Health Information Exchange</subtitle>
+    <author>
+        <name>VLER DAS HAIMS Read Wrapper ver. 0.1</name>
+    </author>
+    <updated>2013-03-28T17:23:15-04:00</updated>
+    <generator uri="https://localhost:443/haimsreadwrapper/v1/" version="0.1">VLER DAS HAIMS Read Wrapper</generator>
+    <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords</id>
+    <link
+        href="https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords" rel="self"/>
+    <link href="https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.4.1/623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords" rel="alternate"/>    
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID1</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID1</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID1</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID1"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID2</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID2</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID2</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID2"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID3</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID3</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID3</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID3"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID4</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID4</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID4</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID4"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID5</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID5</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID5</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID5"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID6</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID6</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID6</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID6"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID7</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID7</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID7</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID7"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID8</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID8</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID8</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID8"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID9</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID9</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID9</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID9"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+    <entry>
+        <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/000001101/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID10</id>
+        <category term="Neck (Cervical Spine) Conditions (0960M-13)"/>
+        <title type="text">Neck (Cervical Spine) Conditions (0960M-13)</title>
+        <published>2012-05-01T18:25:17-04:00</published>
+        <updated>2012-05-01T18:25:17-04:00</updated>
+        <author>
+            <name>DoD</name>
+        </author>       
+        <content type="application/xml">
+            <case:CommonData>
+				<nc:Document>
+					<nc:DocumentCreationDate>
+						<nc:DateTime>2013-08-14T18:03:55Z</nc:DateTime>
+					</nc:DocumentCreationDate>
+					<nc:DocumentDescriptionText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentDescriptionText>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>HAIMSUNIQUEDOCID10</nc:IdentificationID>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>1232432423</nc:IdentificationID>
+						<nc:IdentificationCategoryText>VTA Tracking Identifier</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentIdentification>
+						<nc:IdentificationID>23423432</nc:IdentificationID>
+						<nc:IdentificationCategoryText>STR ID</nc:IdentificationCategoryText>
+						<nc:IdentificationCategoryDescriptionText>string</nc:IdentificationCategoryDescriptionText>
+					</nc:DocumentIdentification>
+					<nc:DocumentStatus>
+						<nc:StatusText>Completed</nc:StatusText>
+					</nc:DocumentStatus>
+					<nc:DocumentTitleText>Neck (Cervical Spine) Conditions (0960M-13)</nc:DocumentTitleText>
+					<nc:DocumentVersion>1</nc:DocumentVersion>
+					<nc:DocumentFileControlID>2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID10</nc:DocumentFileControlID>
+					<nc:DocumentFormatText>application/pdf</nc:DocumentFormatText>
+				</nc:Document>
+				<nc:DocumentSource>
+					<nc:EntityOrganization>
+						<nc:OrganizationName>DoD</nc:OrganizationName>
+					</nc:EntityOrganization>
+				</nc:DocumentSource>
+				<nc:MilitarySummary>
+					<nc:MilitaryBranchName>Army</nc:MilitaryBranchName>
+				</nc:MilitarySummary>
+				<vler:Client s:id="client">
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<vler:AssigningAuthority>2.16.840.1.113883.3.184</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>AUN623456789</nc:IdentificationID>
+						<!--AUN AHLTA Unit Number-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.275</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientIdentifier>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+						<!--EDIPIN DoD Deers Id-->
+						<vler:AssigningAuthority>2.16.840.1.113883.3.42.10001.100001.12</vler:AssigningAuthority>
+					</vler:ClientIdentifier>
+					<vler:ClientStatus>
+						<vler:ClientStatusText>OK</vler:ClientStatusText>
+					</vler:ClientStatus>
+					<nc:RoleOfPersonReference s:ref="p1"/>
+				</vler:Client>
+				<nc:Person s:id="p1">
+					<nc:PersonBirthDate>
+						<nc:Date>1929-12-24</nc:Date>
+					</nc:PersonBirthDate>
+					<nc:PersonName>
+						<nc:PersonGivenName>CHRISTMAS</nc:PersonGivenName>
+						<nc:PersonMiddleName/>
+						<nc:PersonSurName>FIX</nc:PersonSurName>
+					</nc:PersonName>
+					<nc:PersonSexCode>M</nc:PersonSexCode>
+					<nc:PersonSSNIdentification>
+						<nc:IdentificationID>623456789</nc:IdentificationID>
+					</nc:PersonSSNIdentification>
+				</nc:Person>
+				<nc:Facility>
+					<nc:FacilityIdentification>
+						<nc:IdentificationID>500</nc:IdentificationID>
+						<nc:IdentificationJurisdictionText>COR.FO-ALBANY.MED.VA.GOV</nc:IdentificationJurisdictionText>
+					</nc:FacilityIdentification>
+					<nc:FacilityName>COR.FO-ALBANY.MED.VA.GOV</nc:FacilityName>
+				</nc:Facility>
+				<vler:ServiceProviderClientAssociation>
+					<vler:ServiceProviderReference s:ref="service_provider"/>
+					<vler:ClientReference s:ref="client"/>
+				</vler:ServiceProviderClientAssociation>
+			</case:CommonData>
+        </content>
+        <link
+            href="http://localhost:1234?redirectURL=https://localhost:443/haimsdocretrieve/v1/2.16.840.1.113883.3.275/AUN623456789/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords/2.16.840.1.113883.3.42.10001.100001.12_HAIMSREPOID_HAIMSUNIQUEDOCID10"
+            hreflang="en" len="1000000" rel="enclosure"
+            title="Subject Document" type="application/pdf"/>
+    </entry>
+</feed>

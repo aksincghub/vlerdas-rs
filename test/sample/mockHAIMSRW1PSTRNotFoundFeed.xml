@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+    xmlns:case="http://vler.va.gov/vler/schemas/health/clinicalDocuments/serviceTreatmentRecord/1.3"
+    xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:vler="http://vler.va.gov/vler/schemas/vlerSupersetSchema/0.7/vler"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2005/Atom ../XMLschemas/atom/2005/vler/0.2/atom.xsd">
+    <title type="text">VLER DAS HAIMS Read Wrapper ver. 0.1</title>
+    <subtitle type="text">Benefits &amp; Health Information Exchange</subtitle>
+    <author>
+        <name>VLER DAS HAIMS Read Wrapper ver. 0.1</name>
+    </author>
+    <updated>2013-03-28T17:23:15-04:00</updated>
+    <generator uri="https://localhost:443/haimsreadwrapper/v1/" version="0.1">VLER DAS HAIMS Read Wrapper</generator>
+    <id>https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/AUN699999999/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords</id>
+    <link
+        href="https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.3.275/AUN699999999/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords" rel="self"/>
+    <link href="https://localhost:443/haimsreadwrapper/v1/2.16.840.1.113883.4.1/699999999/health/clinicalDocuments/historicalData/medicalHistory/serviceTreatmentRecords" rel="alternate"/>    
+</feed>

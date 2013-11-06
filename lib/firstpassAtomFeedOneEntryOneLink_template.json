@@ -1,0 +1,54 @@
+{
+  "feed": {
+    "-xmlns": "http://www.w3.org/2005/Atom",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xsi:schemaLocation": "http://www.w3.org/2005/Atom http://vler.va.gov/vler/schemas/atom/2005/vler/0.2/atom.xsd",
+    "title": {
+      "-type": "text",
+      "#text": "VLER Read Service"
+    },
+    "subtitle": {
+      "-type": "text",
+      "#text": "None"
+    },
+    "author": { "name": "Unknown" },
+    "contributor": { "name": "Unknown" },
+    "updated": "Unknown",
+    "generator": {
+      "-version": "0.0",
+      "-uri": "https://localhost/das/v1/",
+      "#text": "VLER Read Service"
+    },
+    "id": "unknown",
+    "link": [
+      {
+        "-href": "https://localhost/das/v1/",
+        "-rel": "self"
+      },
+      {
+        "-href": "https://localhost/das/v1/",
+        "-rel": "alternate"
+      }
+    ],
+    "entry": {
+      "title": "None",
+      "category": { "-term": "Unknown" },
+      "id": "unknown",
+      "published": "unknown",
+      "updated": "unknown",
+      "author": { "name": "Unknown" },
+      "content": {
+        "-type": "*/*",
+        "#text": "insert content here"
+      },
+      "link": {
+        "-title": "Unknown",
+        "-href": "https://localhost/core/fs/000000000000000000000000",
+        "-rel": "enclosure",
+        "-type": "*/*",
+        "-hreflang": "en",
+        "-length": "1000000"
+      }
+    }
+  }
+}
